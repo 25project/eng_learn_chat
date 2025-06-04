@@ -8,10 +8,10 @@ export default function Mypage() {
     <div className="mypage-container">
       <div className="profile-header">
         <div className="profile-info">
-          <h2>로그인하세요</h2>
+          <h2>tester</h2>
           <p>당신의 페이지를 보세요.</p>
         </div>
-        <button onClick={() => navigate('/login')} className="login-btn">회원가입/로그인</button>
+        <button onClick={() => navigate('/login')} className="login-btn">로그아웃</button>
       </div>
 
       <div className="menu-list">
