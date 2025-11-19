@@ -5,12 +5,18 @@
 
 ## 🧑‍💻 참여자
  팀장 : 윤혜준
+ 
  팀원 : 변재윤
 
 
 ## 📌 사용된 공개 S/W
 
  Spring Boot, React, PostgreSQL, Gradle, FastApi, Gemini API, Wav2vec 2.0, Librosa, PyTorch, Nginx, Docker
+
+ ### 📌 발음 분석 AI 파인튜닝 사용 데이터
+ LibriSpeech의 train-clean-100
+ 
+ 데이터 다운로드 url : https://www.openslr.org/12
 
 
 ## 🖇 작품의 주요 기능
