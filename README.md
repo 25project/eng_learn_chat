@@ -13,10 +13,13 @@
 
  Spring Boot, React, PostgreSQL, Gradle, FastApi, Gemini API, Wav2vec 2.0, Librosa, PyTorch, Nginx, Docker
 
- ### 📌 발음 분석 AI 파인튜닝 사용 데이터
+ ### 📌 발음 분석 AI 파인튜닝에 사용된 데이터
  LibriSpeech의 train-clean-100
  
  데이터 다운로드 url : https://www.openslr.org/12
+
+ ### 📌 발음 분석 AI
+ https://drive.google.com/drive/folders/15xbHrsYQncODxVv85QZcOATf_8kk5Kv1?usp=drive_link
 
 
 ## 🖇 작품의 주요 기능
