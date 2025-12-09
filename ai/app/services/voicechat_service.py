@@ -191,6 +191,6 @@ async def send_message_service(data: Dict):
         "categories": categories,            # ex) ["GRAMMAR"] or []
         "grammar": g_txt,                    # 빈 문자열 가능
         "vocabulary": v_txt,                 # 빈 문자열 가능
+        #"pronounciation":p_txt,             # 빈 문자열 가능
         "suggestion": s_txt,                 # 빈 문자열 가능
-        # "voca": [{ "word": "prescription", "meaningKo": "...", "example": "..." }, ...]  # 있으면 추가
     }
