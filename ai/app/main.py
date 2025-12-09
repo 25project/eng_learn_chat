@@ -5,7 +5,10 @@ from .routers.text import router as textr
 from .routers.voice import router as voicer
 
 app = FastAPI()
-
+origins = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
 # CORS 설정 (배포 시 실제 도메인으로 제한 권장)
 app.add_middleware(
     CORSMiddleware,

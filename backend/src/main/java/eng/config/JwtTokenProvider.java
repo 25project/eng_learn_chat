@@ -68,7 +68,7 @@ public class JwtTokenProvider {
         return claims.getSubject(); // subject에 저장된 이메일 반환
     }
 
-    // 호환용 이메일 추출
+    // 호환용 이메일 추출(충돌방지)
     public String getEmailFromToken(String token) {
         SecretKey key = Keys.hmacShaKeyFor(secretKey.getBytes(StandardCharsets.UTF_8));
 

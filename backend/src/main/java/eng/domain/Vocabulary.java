@@ -36,6 +36,7 @@ public class Vocabulary {
     @Column(name = "created_at", updatable = false)
     private Instant createdAt;
 
+    //혹시 몰라 만든 테이블이긴 한데 어따 쓰지
     @PrePersist
     void onCreate() {
         if (createdAt == null) createdAt = Instant.now();
